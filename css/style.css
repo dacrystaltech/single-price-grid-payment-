@@ -1,0 +1,131 @@
+body {
+    margin-top: 8%; 
+    margin-bottom: 8%;       
+    border: 0;
+    padding:0;
+    background-color: hsl(213, 56%, 85%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;    
+    font-size: 16px;
+    color: white ;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    background-color:  #fff;
+    color: grey;
+    max-width: 700px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    margin: auto ;
+    padding: 10px 10px 10px 10px;
+    flex-grow: 1;
+       
+}
+
+.box {    
+    height: 230px;
+    max-width: 350px;
+    flex-grow: 1;
+}
+
+
+.box2 {
+    background-color:#2bb3b1;
+    padding: 25px;
+    border-radius: 0px  0px  0px 10px ;
+}
+
+.box3 {
+    background-color:#4abebd;
+    padding: 25px;
+    font-weight: 300 ;
+    color: rgba(255, 255, 255, 0.589);
+    border-radius: 0px 0px 10px 0px;
+}
+
+.container2{
+    display: flex;
+    margin: auto ;
+}
+
+.header1 {
+    color: #2bb3b1;
+    font-weight: 700 ;
+    font-size: 25px;
+}
+
+.header1text{
+    color:hsl(71, 46%, 42%) ;
+    border-style: none;
+}
+
+.header2 {
+    font-weight: 500 ;
+}
+
+.amount {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.amountword{
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+.header3 {
+    font-weight: 500 ;
+    color: #fff;
+}
+
+.button {
+    align-content: center;
+    background-color: hsl(71, 73%, 54%) ;
+    color: white;
+    border-style: none ;
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1{
+        max-width: 270px;
+        height: 300px;
+    }
+
+    .box2 {
+        border-radius: 0px ;
+        height: 55%;
+    }
+
+    
+
+    .box3 {
+        border-radius:  0px 0px 10px 10px;
+    }
+}
+
+@media (max-width: 260px) {
+    .container1{
+       width: 230px;
+
+    }
+}
