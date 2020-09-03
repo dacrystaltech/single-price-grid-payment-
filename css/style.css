@@ -18,7 +18,7 @@ body {
 .container1 {
     background-color:  #fff;
     color: grey;
-    max-width: 700px;
+    width: 516px;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
     margin: auto ;
@@ -107,7 +107,8 @@ footer {
     }
 
     .container1{
-        width: 267px;
+        width: 100%;
+       max-width: 267px;
         height: 300px;
     }
 
@@ -123,9 +124,9 @@ footer {
     }
 }
 
-@media (max-width: 260px) {
+@media (max-width: 280px) {
     .container1{
-       width: 230px;
+       width: 245px;
 
     }
 }
